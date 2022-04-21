@@ -1116,6 +1116,7 @@ img {
 }
 
 .catalog__artist-name:hover {
+  margin-bottom: -1px;
   color: #9D5CD0;
   border-bottom: 1px solid #9D5CD0;
 }
@@ -1126,6 +1127,7 @@ img {
 }
 
 .catalog__artist-name:active {
+  margin-bottom: -1px;
   color: #7943A4;
   border-bottom: 1px solid #7943A4;
 }
@@ -2434,7 +2436,7 @@ img {
 
   .catalog__block-right {
     max-width: 100%;
-    margin-bottom: 47px;
+    margin-bottom: 52px;
   }
 
   .ui-accordion-content {
@@ -2605,20 +2607,20 @@ img {
   }
 
   .contacts__feedback {
-    min-height: 347px;
-    padding: 0 15px 20px 15px;
+    min-height: 345px;
+    padding: 0 15px 15px 15px;
     border: none;
   }
 
   .contacts__showroom {
     margin-bottom: 0;
     font-size: 18px;
-    line-height: 18px;
+    line-height: 16px;
   }
 
   .contacts__text {
     font-size: 14px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
   }
 
   .contacts__form:nth-child(1) {
@@ -2767,7 +2769,7 @@ img {
   }
 
   .galery__container {
-    padding: 50px 15px 45px 15px;
+    padding: 50px 15px 48px 15px;
     background-image: url(../img/galery-320-bgimg.jpg);
   }
 
@@ -2800,22 +2802,22 @@ img {
   }
 
   .galery-swiper-pagination {
-    top: 392px;
+    top: 395px;
     left: 130px;
   }
 
   .galery-swiper-button-prev {
-    top: 385px;
+    top: 388px;
     left: 82px;
   }
 
   .galery-swiper-button-next {
-    top: 385px;
+    top: 388px;
     left: 180px;
   }
 
   .catalog__container {
-    padding: 50px 15px 50px 15px;
+    padding: 50px 15px 53px 15px;
   }
 
   .catalog__header {
@@ -2838,16 +2840,17 @@ img {
 
   .ui-accordion .ui-accordion-header {
     min-height: 72px;
+    margin-bottom: -1px;
     padding: 20px 0;
     font-size: 18px;
   }
 
   .ui-accordion .ui-accordion-content {
-    padding: 20px 0;
+    padding: 20px 0 20px 0;
   }
 
   .ui-accordion-content {
-    max-height: 810px;
+    max-height: 815px;
   }
 
   .ui-icon {
@@ -2888,7 +2891,7 @@ img {
   }
 
   .events__container {
-    padding: 0 15px 40px 15px;
+    padding: 0 15px 47px 15px;
   }
 
   .events__header {
@@ -2900,6 +2903,10 @@ img {
 
   .events__swiper {
     max-width: 290px;
+  }
+
+  .events__wrapper {
+    margin-bottom: 16px;
   }
 
   .events__slide {
