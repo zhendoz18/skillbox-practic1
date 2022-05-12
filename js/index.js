@@ -105,7 +105,7 @@ breakpoints: {
     slidesPerGroup: 2,
   },
 
-  1420: {
+  1600: {
     slidesPerView: 3,
     spaceBetween: 50,
     slidesPerGroup: 3
