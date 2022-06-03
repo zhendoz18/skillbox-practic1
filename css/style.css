@@ -110,7 +110,7 @@ img {
 }
 
 .header__link {
-  padding: 2px 6px 8px 6px;
+  padding: 2px 6px 5px 6px;
   font-size: 18px;
   line-height: 25px;
   font-weight: 600;
@@ -214,6 +214,7 @@ img {
   padding-left: 0;
   padding-top: 0;
   padding-bottom: 0;
+  font-size: 18px;
 }
 
 .choices__list--single {
@@ -222,9 +223,9 @@ img {
 
 .choices__item {
   margin-right: 3px;
-  font-size: 14px;
-  line-height: 19px;
-  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
   color: #FFFFFF;
 }
 
@@ -1578,6 +1579,7 @@ img {
   background: #FFFFFF;
   background-repeat: no-repeat;
   background-position: center;
+  cursor: pointer;
 }
 
 .projects__img:focus {
@@ -1925,6 +1927,10 @@ img {
   margin-right: 20px;
 }
 
+.contacts__whatsapp img {
+  border: 1px solid transparent;
+}
+
 .contacts__whatsapp:hover {
   opacity: 0.5;
 }
@@ -1937,6 +1943,10 @@ img {
 .contacts__whatsapp:active img {
   border-radius: 50%;
   border: 1px solid #9643A4;
+}
+
+.contacts__telegram img{
+  border: 1px solid transparent;
 }
 
 .contacts__telegram:hover {
