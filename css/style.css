@@ -115,6 +115,7 @@ img {
   line-height: 25px;
   font-weight: 600;
   color: #FFFFFF;
+  transition-duration: 0.3s;
 }
 
 .header__link:hover {
@@ -167,6 +168,7 @@ img {
   margin-right: 7px;
   background-image: url(../img/header-enter-icon.svg);
   background-repeat: no-repeat;
+  transition-duration: 0.3s;
 }
 
 .header__enter-link {
@@ -174,6 +176,7 @@ img {
   line-height: 25px;
   font-weight: 400;
   color: #FFFFFF;
+  transition-duration: 0.3s;
 }
 
 .header__enter-link:active {
@@ -208,6 +211,10 @@ img {
   max-height: 33px;
 }
 
+/* .choices:hover .choices__item--selectable {
+  color: #9D5CD0;
+} */
+
 .choices__inner {
   background-color: transparent;
   border: none;
@@ -236,6 +243,7 @@ img {
   color: rgba(255, 255, 255, 1);
   opacity: 1;
   background: transparent;
+  transition-duration: 0.3s;
 }
 
 .choices[data-type*=select-one] {
@@ -251,6 +259,7 @@ img {
   border-width: 1px;
   margin-top: -4px;
   transform: rotate(-45deg);
+  transition-duration: 0.3s;
   z-index: 1;
 }
 
@@ -263,12 +272,20 @@ img {
   color: #9D5CD0;
 }
 
+.choices[data-type*=select-one]:hover .choices__list--single .choices__item {
+  color: #9D5CD0;
+}
+
 .choices[data-type*=select-one].is-open:hover::after {
   border-color:#9D5CD0 #9D5CD0 transparent transparent;
 }
 
 .choices[data-type*=select-one]:focus {
   background: #7943A4;
+}
+
+.choices[data-type*=select-one]:focus .choices__list--single .choices__item {
+  color: #FFFFFF;
 }
 
 .choices[data-type*=select-one]:focus .choices__placeholder {
@@ -542,6 +559,7 @@ img {
   max-height: 64px;
   padding: 20px 32px 19px 32px;
   background-color: #9D5CD0;
+  transition: 0.3s;
   border: 3px solid transparent;
   border-radius: 100px;
   font-size: 18px;
@@ -638,6 +656,7 @@ img {
 .galery__select-block > .choices {
   margin: 0;
   max-height: 40px;
+  transition: 0.3s;
 }
 
 .galery__select-block > .choices[data-type*=select-one] {
@@ -863,8 +882,10 @@ img {
   top: 25px;
   left: 5px;
   background-color: #666666;
+  transition: 0.3s;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 5;
 }
 
 .galery-swiper-button-prev:hover {
@@ -902,8 +923,10 @@ img {
   top: 25px;
   left: 105px;
   background-color: #666666;
+  transition: 0.3s;
   border-radius: 50%;
   cursor: pointer;
+  z-index: 5;
 }
 
 .galery-swiper-button-next:hover {
@@ -1034,6 +1057,7 @@ img {
   line-height: 32px;
   font-weight: 600;
   color: #333333;
+  transition: 0.3s;
   margin-top: -1px;
 }
 
@@ -1091,6 +1115,7 @@ img {
   height: 50px;
   background-image: none;
   background: #ECECEC;
+  transition: 0.3s;
   border-radius: 50%;
 }
 
@@ -1121,6 +1146,7 @@ img {
   border: none;
   border-top: 1px solid #000000;
   border-left: 1px solid #000000;
+  transition: 0.5s;
 }
 
 .catalog__empty-block {
@@ -1338,6 +1364,7 @@ img {
   left: 0;
   border-radius: 50%;
   background: #ECECEC;
+  transition: 0.3s;
   z-index: 10;
   cursor: pointer;
 }
@@ -1382,6 +1409,7 @@ img {
   right: 0;
   border-radius: 50%;
   background: #ECECEC;
+  transition: 0.3s;
   z-index: 10;
   cursor: pointer;
 }
@@ -1589,6 +1617,7 @@ img {
 .project__img_one {
   background-image: url(../img/projects-slide1.png);
   background-size: 244px;
+  transition: 0.3s;
 }
 
 .project__img_one:hover {
@@ -1603,6 +1632,7 @@ img {
 .project__img_two {
   background-image: url(../img/projects-slide2.png);
   background-size: 330px;
+  transition: 0.3s;
 }
 
 .project__img_two:hover {
@@ -1617,6 +1647,7 @@ img {
 .project__img_three {
   background-image: url(../img/projects-slide3.png);
   background-size: 229px;
+  transition: 0.3s;
 }
 
 .project__img_three:hover {
@@ -1631,6 +1662,7 @@ img {
 .project__img_four {
   background-image: url(../img/projects-slide4.png);
   background-size: 123px;
+  transition: 0.3s;
 }
 
 .project__img_four:hover {
@@ -1645,6 +1677,7 @@ img {
 .project__img_five {
   background-image: url(../img/projects-slide5.png);
   background-size: 173px;
+  transition: 0.3s;
 }
 
 .project__img_five:hover {
@@ -1659,6 +1692,7 @@ img {
 .project__img_six {
   background-image: url(../img/projects-slide6.png);
   background-size: 252px;
+  transition: 0.3s;
 }
 
 .project__img_six:hover {
@@ -1673,6 +1707,7 @@ img {
 .project__img_seven {
   background-image: url(../img/projects-slide7.png);
   background-size: 286px;
+  transition: 0.3s;
 }
 
 .project__img_seven:hover {
@@ -1688,6 +1723,7 @@ img {
 .project__img_eight {
   background-image: url(../img/projects-slide8.png);
   background-size: 185px;
+  transition: 0.3s;
 }
 
 .project__img_eight:hover {
@@ -1702,6 +1738,7 @@ img {
 .project__img_nine {
   background-image: url(../img/projects-slide9.png);
   background-size: 229px;
+  transition: 0.3s;
 }
 
 .project__img_nine:hover {
@@ -1720,6 +1757,7 @@ img {
   top: 60px;
   left: 0px;
   background-color: #ECECEC;
+  transition: 0.3s;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1759,6 +1797,7 @@ img {
   top: 60px;
   right: 0;
   background-color: #ECECEC;
+  transition: 0.3s;
   border-radius: 50%;
   cursor: pointer;
 }
@@ -1843,6 +1882,7 @@ img {
   border-radius: 100px;
   height: 50px;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 .contacts__input:hover {
@@ -1872,6 +1912,7 @@ img {
   font-size: 18px;
   font-weight: 700;
   color: #9D5CD0;
+  transition: 0.3s;
 }
 
 .contacts__btn-one:hover {
@@ -1892,6 +1933,7 @@ img {
 
 .contacts__btn-two {
   display: none;
+  transition: 0.3s;
 }
 
 .contacts__btn-two:hover {
@@ -1925,6 +1967,7 @@ img {
 
 .contacts__whatsapp {
   margin-right: 20px;
+  transition: 0.3s;
 }
 
 .contacts__whatsapp img {
@@ -1943,6 +1986,10 @@ img {
 .contacts__whatsapp:active img {
   border-radius: 50%;
   border: 1px solid #9643A4;
+}
+
+.contacts__telegram {
+  transition: 0.3s;
 }
 
 .contacts__telegram img{
@@ -2000,6 +2047,7 @@ img {
   background-image: url(../img/footer-vk-icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.3s;
 }
 
 .footer__social_vk:hover {
@@ -2020,6 +2068,7 @@ img {
   background-image: url(../img/footer-instagram-icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.3s;
 }
 
 .footer__social_instagram:hover {
@@ -2039,6 +2088,7 @@ img {
   background-image: url(../img/footer-fb-icon.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  transition: 0.3s;
 }
 
 .footer__social_fb:hover {
