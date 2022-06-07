@@ -1,5 +1,9 @@
 jQuery(document).ready ( function($) {
-  $("#accordion").accordion();
+  $("#accordion").accordion({
+    active: false,
+    collapsible: true,
+    animate: 500
+  });
 } );
 
 document.addEventListener('DOMContentLoaded', function () {
