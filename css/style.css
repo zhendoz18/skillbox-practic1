@@ -1442,6 +1442,14 @@ img {
   z-index: 10;
 }
 
+.events-swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+
+.events-swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+}
+
 /* PROJECTS */
 
 .projects__container {
@@ -1830,6 +1838,14 @@ img {
   z-index: 10;
 }
 
+.projects-swiper-button-prev.swiper-button-disabled {
+  opacity: 0;
+}
+
+.projects-swiper-button-next.swiper-button-disabled {
+  opacity: 0;
+}
+
 /* CONTACTS */
 
 .contacts__feedback {
@@ -2185,6 +2201,12 @@ img {
   .header__container {
     justify-content: space-between;
     padding: 0 50px;
+  }
+
+  .header__burger {
+    background: transparent;
+    border: none;
+    padding: 0;
   }
 
   .header__burgermenu {
