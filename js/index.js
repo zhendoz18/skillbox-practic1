@@ -132,6 +132,11 @@ navigation: {
 // scrollbar: {
 //   el: '.swiper-scrollbar',
 // },
+a11y: {
+  enabled: true,
+  prevSlideMessage: 'предыдущий слайд',
+  nextSlideMessage: 'следующий слайд',
+}
 
 });
 
@@ -187,6 +192,11 @@ const swiper2 = new Swiper('.events__swiper', {
 // scrollbar: {
 //   el: '.swiper-scrollbar',
 // },
+a11y: {
+  enabled: true,
+  prevSlideMessage: 'предыдущий слайд',
+  nextSlideMessage: 'следующий слайд',
+}
 
 });
 
@@ -238,6 +248,11 @@ pagination: {
 // scrollbar: {
 //   el: '.swiper-scrollbar',
 // },
+a11y: {
+  enabled: true,
+  prevSlideMessage: 'предыдущий слайд',
+  nextSlideMessage: 'следующий слайд',
+}
 
 });
 
