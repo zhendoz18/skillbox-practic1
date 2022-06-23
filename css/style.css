@@ -1053,6 +1053,10 @@ img {
   padding: 26px 0 21px 0;
 }
 
+.ui-accordion-content-active {
+  min-height: 340px;
+}
+
 .catalog__accordion-header {
   line-height: 32px;
   font-weight: 600;
@@ -1197,16 +1201,12 @@ img {
   color: #9D5CD0;
 }
 
-.ui-accordion-content {
-  display: flex;
-  max-height: 340px;
-}
-
 .catalog__artist {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  /* margin-right: 60px; */
+  height: 293px;
+  margin-right: 60px;
 }
 
 .catalog__artist-name {
@@ -2139,8 +2139,12 @@ img {
     min-width: 280px;
   }
 
-  .ui-accordion-content {
+  .ui-accordion-content-active {
     min-height: 435px;
+  }
+
+  .catalog__artist {
+    height: 388px;
   }
 
   .events__wrapper {
@@ -2667,8 +2671,12 @@ img {
     letter-spacing: 0.38px;
   }
 
-  .ui-accordion-content {
+  .ui-accordion-content-active {
     min-height: 338px;
+  }
+
+  .catalog__artist {
+    height: 291px;
   }
 
   .events__swiper {
@@ -3086,11 +3094,19 @@ img {
   }
 
   .ui-accordion .ui-accordion-content {
-    padding: 20px 0 20px 0;
+    padding: 21px 0 17px 0;
   }
 
-  .ui-accordion-content {
-    max-height: 815px;
+  .ui-accordion-content-active {
+    min-height: 808px;
+  }
+
+  .catalog__artist {
+    height: 770px;
+  }
+
+  .catalog__artist {
+    flex-wrap: nowrap;
   }
 
   .ui-icon {
